@@ -31,20 +31,21 @@
   <a class="back" href="https://mechanicar.app">&larr; mechanicar.app</a>
   <div class="eyebrow">Privacy Policy</div>
   <h1>Your data, your call.</h1>
-  <p class="updated">Last updated: May 30, 2026</p>
+  <p class="updated">Last updated: May 31, 2026</p>
 
   <section>
     <h2>1. Who we are</h2>
-    <p>MechaniCar ("we", "us", "our") operates the MechaniCar marketplace at <strong>mechanicar.app</strong> and the corresponding iOS and Android apps. We connect car owners with local repair shops via anonymous job posts and private quotes.</p>
+    <p>MechaniCar ("we", "us", "our") operates the MechaniCar marketplace at <strong>mechanicar.app</strong> and the corresponding iOS and Android apps. We connect car owners with independent local repair shops via anonymous job posts and private quotes. We do not perform repairs and we do not take any commission on repair work — owners pay shops directly.</p>
   </section>
 
   <section>
     <h2>2. What we collect</h2>
     <ul>
       <li><strong>Account info:</strong> name, email, password hash, role (owner / shop / admin), and shop name + business application data if applicable.</li>
-      <li><strong>Location:</strong> approximate coordinates and the search radius you set, used for matching. You may use Google sign-in (when offered) or set your location manually.</li>
-      <li><strong>Job posts &amp; quotes:</strong> photos, videos, vehicle details (make / model / year), descriptions, prices, and time estimates.</li>
-      <li><strong>Messages:</strong> private 1-on-1 threads between owners and shops.</li>
+      <li><strong>Location:</strong> approximate coordinates and the search radius you set, used for matching. You may sign in with Google (when offered) or set your location manually.</li>
+      <li><strong>Job posts &amp; quotes:</strong> photos, videos, <strong>voice notes / audio recordings</strong>, vehicle details (make / model / year), descriptions, prices, and time estimates.</li>
+      <li><strong>Messages:</strong> private 1-on-1 threads between owners and shops, including any photos, video, or audio you attach.</li>
+      <li><strong>Ratings &amp; reviews:</strong> star ratings and written reviews owners leave for shops after completed jobs.</li>
       <li><strong>Billing:</strong> Stripe handles all web payment information; Apple App Store / Google Play handle all native-app payment information. We store only the customer / subscription / receipt IDs and the subscription status.</li>
       <li><strong>Device data:</strong> IP address, user agent, push notification token (only if you opt in), and notification permission state.</li>
     </ul>
@@ -55,10 +56,11 @@
     <ul>
       <li>Match nearby repair shops to owner job posts (using your radius and service categories).</li>
       <li>Deliver private quotes, bookings, and messages between you and your counterparty.</li>
-      <li>Authenticate you and prevent abuse.</li>
+      <li>Authenticate you and prevent abuse, fraud, or platform circumvention.</li>
       <li>Send transactional emails (job updates, quote notifications, trial expiry reminders, password resets).</li>
       <li>Send web and mobile push notifications that you explicitly opt into.</li>
       <li>Process subscription payments via Stripe (web) and Google Play / Apple (native apps).</li>
+      <li>Produce <strong>anonymized, aggregated analytics</strong> (e.g., "average quote response time across all shops") to improve the service. These analytics never include personally identifying information.</li>
     </ul>
   </section>
 
@@ -69,6 +71,7 @@
       <li>We <strong>don't share owner identity</strong> with shops until you explicitly accept a quote.</li>
       <li>We <strong>don't run third-party advertising trackers</strong>.</li>
       <li>We <strong>don't train AI models</strong> on your data.</li>
+      <li>We <strong>don't take a commission on repair work</strong>. Whatever a shop quotes is what you pay them, directly. Our only revenue from shops is the optional Pro / Premium subscription fee.</li>
     </ul>
   </section>
 
@@ -85,33 +88,49 @@
   </section>
 
   <section>
-    <h2>6. Your rights</h2>
+    <h2>6. Public-facing information</h2>
+    <p>Some data is intentionally visible to other MechaniCar users:</p>
+    <ul>
+      <li><strong>Shop profiles</strong> — name, specialties, bio, location, and aggregate rating are visible to any owner browsing the marketplace.</li>
+      <li><strong>Owner ratings &amp; reviews of shops</strong> — visible publicly under your anonymous handle (e.g., "Owner-3742") with the date and star rating. Reviews are tied to verified completed jobs.</li>
+      <li><strong>Job posts</strong> — visible (anonymously) to in-radius shops until you close the job or accept a quote.</li>
+    </ul>
+    <p>Everything else (your real name, email, exact address, messages, billing info) remains private.</p>
+  </section>
+
+  <section>
+    <h2>7. Your rights</h2>
     <p>You can at any time:</p>
     <ul>
       <li><strong>Export your data</strong> — email <a href="mailto:privacy@mechanicar.app">privacy@mechanicar.app</a> with the subject "Data export request".</li>
       <li><strong>Delete your account</strong> — open Settings &rarr; Privacy &rarr; "Delete account". We remove your personal data within 24 hours and anonymize historical records so existing audit trails remain valid.</li>
       <li><strong>Revoke push permission</strong> — Settings &rarr; Notifications, or revoke it directly in your browser / device settings.</li>
-      <li><strong>Cancel your subscription</strong> — "Manage subscription" in Settings opens the Stripe Customer Portal (web) or your Google Play / Apple subscription management page (native).</li>
+      <li><strong>Cancel your subscription</strong> — Settings &rarr; Subscription opens the Stripe Customer Portal (web), or on Android open <strong>Google Play app &rarr; Profile &rarr; Payments &amp; subscriptions &rarr; Subscriptions</strong>, or on iOS open <strong>Settings app &rarr; Apple ID &rarr; Subscriptions</strong>.</li>
     </ul>
   </section>
 
   <section>
-    <h2>7. Data retention</h2>
+    <h2>8. Data retention</h2>
     <p>Active account data is retained while your account is alive. After deletion, personal identifiers are removed within 24 hours and only anonymized historical records (used for fraud prevention and audit purposes) remain. Stripe and Google Play retain billing history per their own retention policies.</p>
   </section>
 
   <section>
-    <h2>8. Children</h2>
-    <p>MechaniCar is intended for users 18 and older. We do not knowingly collect data from minors. If you believe a child has provided data to MechaniCar, please contact us and we will delete it promptly.</p>
+    <h2>9. Age requirement</h2>
+    <p>MechaniCar is intended for users <strong>18 years of age or older</strong>. We do not knowingly collect data from minors. If you believe a child has provided data to MechaniCar, please contact us at <a href="mailto:privacy@mechanicar.app">privacy@mechanicar.app</a> and we will delete it promptly.</p>
   </section>
 
   <section>
-    <h2>9. International data transfers</h2>
+    <h2>10. International data transfers</h2>
     <p>MechaniCar is operated from the United States. By using the service, you consent to the transfer and processing of your data in the United States. We rely on the standard contractual clauses approved by the European Commission for any EU-to-US data transfers.</p>
   </section>
 
   <section>
-    <h2>10. Contact</h2>
+    <h2>11. Changes to this policy</h2>
+    <p>We may update this Privacy Policy from time to time. Material changes will be notified via email and an in-app banner at least 7 days before they take effect. Continued use of the service after the change date constitutes acceptance.</p>
+  </section>
+
+  <section>
+    <h2>12. Contact</h2>
     <p>Privacy questions: <a href="mailto:privacy@mechanicar.app">privacy@mechanicar.app</a></p>
     <p>General support: <a href="mailto:hello@mechanicar.app">hello@mechanicar.app</a></p>
   </section>
