@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MechaniCar — Delete Your Account</title>
+<meta name="description" content="How to permanently delete your MechaniCar account and all associated data." />
+<style>
+  :root { --bg:#09090b; --fg:#e4e4e7; --muted:#a1a1aa; --dim:#71717a; --brand:#ff3b30; --card:#121214; --border:rgba(255,255,255,0.08); --warn:#FF9500; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; padding:0; background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Inter, Roboto, "Helvetica Neue", Arial, sans-serif; -webkit-font-smoothing: antialiased; line-height:1.6; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
+  .eyebrow { display:inline-block; color: var(--brand); font-size:11px; letter-spacing:0.18em; text-transform:uppercase; margin-bottom:12px; font-weight:600; }
+  h1 { font-size: clamp(36px, 6vw, 52px); margin: 8px 0 8px; letter-spacing:-0.03em; line-height:1.05; font-weight:900; }
+  .updated { color: var(--dim); font-size: 12px; font-family: ui-monospace, "SF Mono", Menlo, monospace; margin-bottom: 40px; }
+  section { padding: 28px 0; border-bottom: 1px solid var(--border); }
+  section:last-of-type { border-bottom: 0; }
+  h2 { font-size: 20px; font-weight: 800; color: #fff; margin: 0 0 12px; letter-spacing:-0.01em; }
+  p, li { color: var(--fg); font-size: 15px; }
+  ul, ol { padding-left: 22px; margin: 8px 0; }
+  li { margin: 8px 0; }
+  a { color: var(--brand); text-decoration: underline; }
+  strong { color: #fff; }
+  .back { color: var(--dim); font-size: 12px; text-transform: uppercase; letter-spacing: 0.18em; text-decoration: none; display: inline-block; margin-bottom: 24px; }
+  .back:hover { color: var(--brand); }
+  .warn-box { background: rgba(255,149,0,0.08); border: 1px solid rgba(255,149,0,0.4); padding: 16px 20px; margin: 16px 0; border-radius: 4px; }
+  .warn-box strong { color: var(--warn); }
+  .cta { display: inline-block; background: var(--brand); color: white; padding: 12px 24px; text-decoration: none; font-weight: 700; letter-spacing: 0.02em; margin-top: 12px; border-radius: 4px; }
+  .cta:hover { background: #d92e25; color: white; }
+  footer { color: var(--dim); font-size: 12px; margin-top: 48px; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="https://mechanicar.app">&larr; mechanicar.app</a>
+  <div class="eyebrow">Account &amp; Data Deletion</div>
+  <h1>Delete your MechaniCar account.</h1>
+  <p class="updated">Last updated: May 31, 2026</p>
+
+  <section>
+    <h2>1. What gets deleted</h2>
+    <p>When you delete your MechaniCar account, we permanently remove the following within <strong>24 hours</strong>:</p>
+    <ul>
+      <li>Your name, email, phone number, and password hash</li>
+      <li>Your business profile (if you're a repair shop)</li>
+      <li>Your saved location and search radius</li>
+      <li>Photos, videos, and voice notes you uploaded</li>
+      <li>Private chat messages you sent</li>
+      <li>Push notification tokens and notification preferences</li>
+      <li>Stored credit card / billing customer association (Stripe customer record is also closed)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>2. What we keep (anonymized)</h2>
+    <p>For fraud prevention, dispute resolution, and tax/legal compliance, we keep <strong>anonymized</strong> versions of:</p>
+    <ul>
+      <li>Job posts and quotes you participated in (with your name and identifying info removed)</li>
+      <li>Star ratings and reviews you left for shops (shown under a deleted-user handle like "Owner-XXXX")</li>
+      <li>Billing transaction records required by tax law (Stripe and Google Play also retain billing history per their own retention policies)</li>
+    </ul>
+    <p>None of this retained data can be used to identify you.</p>
+  </section>
+
+  <section>
+    <h2>3. How to delete your account — in-app</h2>
+    <ol>
+      <li>Open the <strong>MechaniCar app</strong> on your phone, or visit <a href="https://mechanicar.app">mechanicar.app</a> in a browser</li>
+      <li>Sign in to your account</li>
+      <li>Tap <strong>Settings</strong> (gear icon in the top-right of the app)</li>
+      <li>Tap the <strong>Privacy</strong> tab</li>
+      <li>Scroll to the bottom and tap <strong>Delete account</strong></li>
+      <li>Confirm by typing your email address in the prompt</li>
+      <li>Tap <strong>Permanently delete</strong></li>
+    </ol>
+    <p>You'll be signed out immediately and your data will be erased from our systems within 24 hours. You'll receive a confirmation email when the deletion is complete.</p>
+    <div class="warn-box">
+      <strong>This action is irreversible.</strong> Once your account is deleted, your job posts disappear from active shop browsing, any pending quotes are voided, and you can't recover your data. If you only want to cancel a subscription, do that first via <strong>Settings &rarr; Subscription</strong> and keep your account active.
+    </div>
+  </section>
+
+  <section>
+    <h2>4. How to delete your account — email request</h2>
+    <p>If you can no longer sign in (lost password, lost device, etc.), email us and we'll handle deletion manually:</p>
+    <ul>
+      <li><strong>To:</strong> <a href="mailto:privacy@mechanicar.app">privacy@mechanicar.app</a></li>
+      <li><strong>Subject:</strong> "Account deletion request"</li>
+      <li><strong>Body:</strong> Include the email address you registered with so we can verify ownership.</li>
+    </ul>
+    <p>We respond within 1 business day and complete the deletion within 7 days of verification.</p>
+  </section>
+
+  <section>
+    <h2>5. Cancel your subscription before deleting</h2>
+    <p>If you have an active paid subscription (Pro $59.99/mo or Premium $79.99/mo), deleting your account will <strong>not</strong> automatically cancel a Google Play subscription. Always cancel first:</p>
+    <ul>
+      <li><strong>Android (Google Play):</strong> Open the Google Play app &rarr; tap your profile &rarr; <em>Payments &amp; subscriptions</em> &rarr; <em>Subscriptions</em> &rarr; MechaniCar &rarr; <em>Cancel subscription</em>.</li>
+      <li><strong>iOS (Apple):</strong> Open the Settings app &rarr; tap your Apple ID at the top &rarr; <em>Subscriptions</em> &rarr; MechaniCar &rarr; <em>Cancel subscription</em>.</li>
+      <li><strong>Web (Stripe):</strong> In the MechaniCar web app, go to <em>Settings &rarr; Subscription &rarr; Manage subscription</em>.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Questions?</h2>
+    <p>Privacy questions: <a href="mailto:privacy@mechanicar.app">privacy@mechanicar.app</a></p>
+    <p>General support: <a href="mailto:hello@mechanicar.app">hello@mechanicar.app</a></p>
+    <p>Full privacy policy: <a href="https://jeypee924.github.io/mechanicar-legal/privacy.html">jeypee924.github.io/mechanicar-legal/privacy.html</a></p>
+  </section>
+
+  <footer>&copy; 2026 MechaniCar. All rights reserved.</footer>
+</main>
+</body>
+</html>
